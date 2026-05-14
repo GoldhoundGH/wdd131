@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: Roboto, sans-serif;
 }
 header,
@@ -20,9 +18,11 @@ h1 {
 }
 section {
   padding: 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin: 1em;
   border: 1px solid #ccc;
+  /* width: 30%; */
+  /* min-width: 200px; */ /* Instructor's solution */
 }
 nav a {
     padding: 20px;
@@ -47,45 +47,28 @@ nav a:hover {
 footer {
     text-align: center;
 }
-.hide a{
-    display: inline-block;
-}
-@media screen and (min-width: 700px) {
+
+@media screen and (min-width: 550px) and (max-width: 849px) {
     main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }  
-    .menu-btn {
-        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-    nav a {
-        display: inline;
+
+    section{
+        max-width: 40%;
+        margin: 20px auto 0px;
     }
-    nav {
-        text-align: right;
-    }
+
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 850px) {
     main {
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+
     }
-}
-                
+    section{
+        width:30%;
+    }
 
-
-.menu-btn * {
-    transition: transform 0.5s ease-in-out,
-                opacity 0.5s ease-in-out;
 }
-.change .bar1 {
-  transform: translate(0, 8px) rotate(-45deg);
-}
-.change .bar2 {
-    transform: translate(-30px, 0px) rotate(-90deg);
-    opacity: 0;}
-
-.change .bar3 {
-  transform: translate(0, -10px) rotate(45deg);
-}
-          
