@@ -1,0 +1,122 @@
+h1,h2,h3,h4 {
+    color:brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 16pt;
+}
+
+body p,a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav {
+   text-align: right;
+   margin: 15px 10px;
+}
+
+nav a {
+    color: brown;
+    text-decoration: none;
+    margin: 0px 0px 0px 30px;
+}
+
+.line {
+    border: 1px solid gold;
+}
+
+.label p {
+    text-align: right;
+}
+
+
+
+.book h2,p {
+    text-align: left;
+}
+
+/* img {
+    width: 65%;
+} */
+
+footer {
+    margin-top: 50px;
+}
+
+footer p{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .entry {
+        padding: 0px 10px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 3fr 8fr;
+    }
+
+    .label {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .book {
+        text-align: center;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .veline {
+        border: 1px solid gold;
+        display: none;
+    }
+
+    .eline {
+        border: 1px solid gold;
+        /* margin: 50px 0px 0px 0px; */
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .entry {
+        max-width: 1000px;
+        padding: 0px 10px;
+        display: grid;
+        grid-template-columns: 1fr 50px 4fr;
+        margin: 20px auto 0px;
+    }
+
+    .label {
+        grid-column: 1/2;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .book {
+        text-align: center;
+        grid-column: 3/4;
+    }
+
+    .veline {
+        border: 1px solid gold;
+        margin: 0px 25px;
+        grid-column: 2/3;
+    }
+
+    .eline {
+        border: 1px solid gold;
+        display: none;
+    }
+}
