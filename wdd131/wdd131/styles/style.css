@@ -1,0 +1,234 @@
+/* logo not centered with text */
+
+h1 {
+    font-size: 3em;
+    text-shadow: 1px 1px 3px #c732a7, -1px -1px 6px #4478e0,3px 3px 3px #c732a7,-3px -3px 6px #4478e0;
+}
+
+p {font-size: 14pt}
+
+h3 {
+    font-size: 1.3em
+}
+body {
+    background-color: #4FB5E8;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #4FB5E8, #1D2638);
+    color: white;
+
+}
+
+#top-banner{
+    display: flex;
+    background-color: #2F4673;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    text-align: center;
+    border: solid #c732a7;
+    border-width: 0 0 1px 0;
+}
+
+#top-banner h3 {
+    text-shadow: 1px 1px 3px #c732a7, -1px -1px 6px #4478e0,3px 3px 3px #c732a7,-3px -3px 6px #4478e0;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    box-shadow: 1px 1px 3px #c732a7, -1px -1px 6px #4478e0,3px 3px 3px #c732a7,-3px -3px 6px #4478e0;
+    border-radius: 50%;
+}
+
+main {
+    /* background-color: #1D2638; */
+    background-image: linear-gradient(to bottom, #1D2638 30px, #2F4673 100px, #1D2638);
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    border: solid #c732a7;
+    border-width: 0 1px;
+
+}
+
+#banner {
+    width: 100%;
+    margin: auto;
+    
+}
+#banner-img {
+    width: 100%;
+    height: 600px;
+    background-image: url('./images/greeneville.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    border: #4FB5E8 solid 1px;
+}
+
+#banner-title {
+    text-align: center;
+    width: 50%;
+    background-color: rgba(0,0,0,.6);
+    margin: auto;
+    margin-top: -175px;
+    margin-bottom: 150px;
+    padding:1px 3.75em;
+    border-radius: 15px;
+}
+
+#desc {
+    text-align: center;
+    background-color: #00b185;
+    padding: 30px 5px;
+    margin: 30px 45px;
+    border: #4FB5E8 solid 1px;
+}
+
+#desc h2 {
+    margin: 15px auto 30px;
+    padding: 0 8px 8px 8px;
+    max-width: 500px;
+    border: solid white;
+    border-width: 0 0 1px 0;
+    text-shadow: 1px 1px 3px #4FB5E8,3px 3px 3px #4FB5E8, -1px -1px 6px #4478e0, -3px -3px 6px #4478e0;
+}
+
+#desc p {
+    width: 60%;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+
+#selection_box {
+    border: solid #c732a7;
+    border-width: 1px 0 0 0 ;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#selection_box h3 {
+    text-shadow: 1px 1px 3px #c732a7, -1px -1px 6px #4478e0,3px 3px 3px #c732a7,-3px -3px 6px #4478e0;
+}
+
+select {
+    border: #4FB5E8 solid 2px;
+}
+
+#dynamic {
+    background-color: #361c49;
+    margin: 30px auto;
+    text-align: center;
+    width: 70%;
+    padding: 30px 0px 15px 0px;
+    border-radius: 15px;
+    border: solid #4FB5E8 1px;
+}
+
+#dynamic h2 {
+    text-align: center;
+    text-shadow: 1px 1px 3px #4FB5E8,3px 3px 3px #4FB5E8, -1px -1px 6px #4478e0, -3px -3px 6px #4478e0;
+}
+
+.img-box {
+    margin-bottom: 15px;
+}
+
+
+.img-box img {
+    width: 80%;
+    border: solid #c732a7 1px;
+    border-radius: 5px;
+}
+
+#dynamic p {
+    padding: 5px;
+    width: 60%;
+    min-width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.img-label {
+    text-align: center;
+    font-size: 12pt;
+    border-bottom: white solid 1px;
+}
+
+.img-desc {
+    text-align: left;
+}
+
+#bottom-banner {
+    background-image: linear-gradient(to bottom, black, #1D2638 45%, #1D2638 55%, black);
+    border: solid #c732a7;
+    border-width: 1px 0 0 0;
+}
+
+#banner-area {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#banner-area h2 {
+    text-shadow: 1px 1px 3px #b6a1b1, -1px -1px 6px #60656e,3px 3px 3px #b6a1b1,-3px -3px 6px #60656e;
+}
+
+#banner-area img {
+    box-shadow: 1px 1px 3px #b6a1b1, -1px -1px 6px #4478e0,3px 3px 3px #b6a1b1,-3px -3px 6px #4478e0;
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {font-size: 2em}
+}
+
+@media screen and (max-width: 600px) {
+    h1 {font-size: 1.7em}
+    h2 {font-size: 1.3em}
+    h3 {font-size: 1em}
+
+    p {font-size: 12pt}
+
+    #top-banner{
+        display: block;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+    #banner-img {
+        width: 100%;
+        height: 300px;
+    }
+    #banner-title {
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        margin-top: -125px;
+        margin-bottom: 100px;
+        padding:1px 1.75em;
+        border-radius: 15px;
+    }
+    #desc {
+        background-color: #35964d;
+        margin: 30px 0px;
+    }
+
+    #dynamic {
+        margin: 30px auto;
+        text-align: center;
+        width: 100%;
+        padding: 30px 0px 15px 0px;
+        border-radius: 15px;
+        border: solid #4FB5E8 1px;
+    }
+}
+
+
+
+
