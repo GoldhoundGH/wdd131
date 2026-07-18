@@ -3,7 +3,7 @@ const recov = new Object()
 recov["bp"] = {
         id: "bp",
         title: "The Black Pearl",
-        image: "./styles/images/black_pearl_in_bottle.png", // ship in a bottle
+        image: "./styles/images/black-pearl-in-bottle.png", // ship in a bottle
         alt: "totally real recovered pirate ship",
         label: "The Black Pearl in a bottle",
         desc: "The Black Pearl was actually discovered during recovery of Flight 19 by one of our divers, John Robbins.  While visiting a gift shop on South Eleuthera Island, Robbins purchased a ship in a bottle.  His children later got ahold of it, broke the bottle and tried to sail the miniature ship in their pool, whereupon it abruptly expanded to its more well known size, revealing itself to indeed be the famous Black Pearl.",
